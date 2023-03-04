@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  color: #434455;
 }
 
 .list {
@@ -120,8 +121,6 @@ body {
 
 .section-featur {
 }
-.featur-hid-title {
-}
 .featur-list {
 }
 
@@ -148,12 +147,14 @@ body {
 .section-work {
 }
 .work-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .work-list {
@@ -173,7 +174,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-list {
@@ -182,7 +185,7 @@ body {
 .team-item {
 }
 .second-repit-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -191,7 +194,7 @@ body {
   color: #2e2f42;
 }
 .team-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -217,7 +220,7 @@ body {
   color: #f4f4fd;
 }
 .footer-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
