@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 .list {
@@ -44,7 +45,8 @@ body {
   color: #2e2f42;
 }
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.nav-link:active {
   color: #404bbf;
 }
 
@@ -70,10 +72,17 @@ body {
   line-height: 1.5;
   color: #434455;
 }
-.mail-link:is(:hover, :focus) {
+.mail-link:hover,
+.mail-link:focus,
+.mail-link:active {
   color: #404bbf;
 }
 
-.tel-link:is(:hover, :focus) {
+.tel-link:hover,
+.tel-link:focus,
+.tel-link:active {
+  color: #404bbf;
+}
+.mail-link:is(:hover, :focus, :active) {
   color: #404bbf;
 }
