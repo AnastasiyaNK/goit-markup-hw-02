@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  background-color: #ffffff;
 }
 
 .list {
@@ -26,11 +26,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.logo-web {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42;
 }
 .nav-list {
 }
