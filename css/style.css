@@ -220,3 +220,36 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
+
+/* -------PORTFOLIO PAGE 2------- */
+
+.categories-project {
+  background: #ffffff;
+}
+
+.hidden-title {
+}
+.btn-list {
+}
+
+.btn-item {
+}
+.btn-categories {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+.btn-categories:hover,
+.btn-categories:focus,
+.btn-categories:active {
+  background: #404bbf;
+  color: #ffffff;
+}
