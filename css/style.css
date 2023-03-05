@@ -243,6 +243,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background: #f4f4fd;
@@ -252,4 +253,32 @@ body {
 .btn-categories:active {
   background: #404bbf;
   color: #ffffff;
+}
+/* -------PROJECT CATEGORIES------- */
+
+.project-list {
+}
+
+.project-item {
+}
+.project-link {
+}
+
+.project-title {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.project-text {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
